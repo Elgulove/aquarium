@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: url(./ressources/aquarium.jpg);
+    background-position: center;
+    width: 150%;
+    height: 100vh;
+    
+}
+
+.titre{
+    color: fuchsia;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dodo{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/dodo.jpg);
+    background-size: contain;
+    background-position: center;
+    animation: anim 15s;
+}
+
+
+
+
+
+.moi{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/moi.jpg);
+    background-size: contain;
+    background-position: center;
+    animation: anim 15s;
+}
+
+
+.nous{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/nous.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: anim 15s;
+}
+
+
+.belle{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/belle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+.eloise{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/Eloïse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+.guitares{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/guitares.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+.mamieElo{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/mamieElo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+
+.miniSelle{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/miniSelle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+
+.mesFilles{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/mesFilles.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+
+.mesEcrits{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/ecrit.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+.escalade{
+    position: absolute;
+    border-radius: 50%;
+    background: url(./ressources/escalade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: anim 15s;
+}
+
+
+
+@keyframes anim {
+    to{
+        top: -2600px;
+        left:var(--left);
+    }
+    
+}
